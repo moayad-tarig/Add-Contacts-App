@@ -1,6 +1,6 @@
 {
-  "homepage": "https://moayad-tarig.github.io/Add-Contacts-App",
-  "name": "dbord",
+  "homepage": "http://moayad-tarig.github.io/Add-Contacts-App",
+  "name": "contacts_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
