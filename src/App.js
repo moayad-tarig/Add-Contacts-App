@@ -22,6 +22,7 @@ function App(){
     e.id = count
     setContacts(prev => [...prev, e])
     bake_cookie("contacts", e)
+    
    
   }
 
