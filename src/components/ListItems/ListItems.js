@@ -7,12 +7,12 @@ import Table from 'react-bootstrap/Table'
 
 
 const ListItems = (props) => {
-    const {contacts, DeleteContact, FilterFirst} = props;
+    const {contacts, DeleteContact, filterFirst} = props;
 
     const Length = contacts.length
-    const Fucklenth = FilterFirst.length
+    const Fucklenth = filterFirst.length
 
-    const test = FilterFirst.map(e => {
+    const test = filterFirst.map(e => {
         return(
             <tr key={e.id}>
             <td>{e.id}</td>
